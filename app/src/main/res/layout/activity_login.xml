@@ -20,16 +20,17 @@
         android:padding="24dp">
 
         <!-- Logo -->
+
+        <!-- Kontainer Putih -->
         <ImageView
             android:id="@+id/logoImage"
             android:layout_width="200dp"
             android:layout_height="200dp"
-            android:src="@drawable/logolecturaxbg"
-            android:layout_marginBottom="20dp"
             android:layout_gravity="center"
-            android:scaleType="fitCenter" />
+            android:layout_marginBottom="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logolecturaxbg" />
 
-        <!-- Kontainer Putih -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -57,11 +58,13 @@
                 android:id="@+id/editTextUsername"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Username"
                 android:background="@null"
+                android:hint="Username"
                 android:paddingBottom="4dp"
+                android:textColor="#000000"
                 android:textColorHint="#888888"
-                android:textColor="#000000" />
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
 
             <View
                 android:layout_width="match_parent"
@@ -74,12 +77,14 @@
                 android:id="@+id/editTextPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Password"
                 android:background="@null"
+                android:hint="Password"
+                android:inputType="textPassword"
                 android:paddingBottom="4dp"
-                android:textColorHint="#888888"
                 android:textColor="#000000"
-                android:inputType="textPassword" />
+                android:textColorHint="#888888"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
 
             <View
                 android:layout_width="match_parent"
