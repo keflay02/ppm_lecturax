@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "lecturax_ppm"
+rootProject.name = "tugas_ppm"
 include(":app")
  
